@@ -1,0 +1,77 @@
+/*add background image*/
+body{
+    background:url('../images/DSC02829.JPG') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*Next styles changes colors of several elements */
+.navbar-brand, .btn-primary{
+    background-color: rgb(57, 124, 124)!important;
+}
+.bg-info{
+    background-color: rgb(57, 124, 124)!important; 
+}
+
+.navbar-light .navbar-brand{
+    color: white;
+}
+
+h1 {
+    color: rgb(57, 124, 124);
+}
+
+.btn-primary {
+    border-color: rgb(57, 124, 124);
+}
+
+.btn.btn-primary:active:hover,
+.btn.btn-primary:hover {
+    border-color: rgb(42,109,109);
+    background-color: rgb(42,109,109);
+    
+}
+/*Change Font for 'Brand Name' and heading*/
+.navbar-brand, h1, h3{
+    font-family: 'Lora', serif;
+}
+
+.prj {
+    display: block;
+}
+
+h3 {
+    color: rgb(57, 124, 124);
+    
+}
+
+img .prj{
+    width: fit-content;
+}
+a:link {
+    color: rgb(57, 124, 124);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(57, 124, 124);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(42, 109, 109);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color:  rgb(42, 109, 109);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+#name, #phone {
+    color: rgb(57, 124, 124);
+}
