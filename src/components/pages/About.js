@@ -2,15 +2,45 @@ import React from "react";
 
 function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div className="container-sm">
+        <div className="row mr-sm-2 ml-sm-2 mb-5">
+          <div className="col-md-8 bg-white mt-5">
+                <h1 className="pt-2">About me</h1>
+                <hr/>
+                <div className="float-left mr-3">
+                <img src="./images/linkedin_a.JPG" alt="me"/>
+
+                </div>
+                <p>
+                  I am full stack developer from Bothell WA
+                </p>
+                <p>
+                  I have Master’s Degree in Mathematics from top Russian University (MSU) and Certificate in web development from University of Washington .
+                </p>
+                <p>
+                  I have passion to learn new technologies. Newly developed skills in Node.js, Javascript, Express, Handlebars, Mongo, HTML, CSS. Also have experience in scripting (Python) and SQL.
+                </p>
+                <p>
+                  My experience in support roles made me a very customer-oriented person. I am passionate about translating user requirements to code and look forward to utilizing this skill to solve business problems. I believe that my educational and professional background in technology, combined with a passionate drive to effectively solve problems, would make me a strong addition to any team
+                </p>
+            </div>
+        </div>
+        <div className="row mr-sm-2 ml-sm-2 mb-5">
+          <div className="col-md-8 bg-white mt-3">
+            <div className="row">
+            <div className="col-md">
+              <a href="https://www.linkedin.com/in/olaillari/"> LinkedIn</a>
+            </div>
+            <div className="col-md">
+              <a href="https://github.com/Myau5x/"> GitHub</a>
+            </div>
+            <div className="col-md">
+              <a href="./documents/Olga_Illari_FED_020121.pdf"> Resume</a>
+            </div>
+          </div>
+          </div>
+        </div>
+        
     </div>
   );
 }

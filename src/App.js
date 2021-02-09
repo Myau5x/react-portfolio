@@ -5,6 +5,7 @@ import About from "./components/pages/About";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
 import NoMatch from "./components/pages/NoMatch"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <NoMatch />
           </Route>
         </Switch>
+        <Footer/>
       </div>
     </Router>
   );
