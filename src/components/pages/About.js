@@ -8,7 +8,7 @@ function About() {
                 <h1 className="pt-2">About me</h1>
                 <hr/>
                 <div className="float-left mr-3">
-                <img src="./images/linkedin_a.JPG" alt="me"/>
+                <img src="https://myau5x.github.io/portfolio_resp/images/linkedin_a.JPG" alt="me"/>
 
                 </div>
                 <p>
@@ -35,7 +35,7 @@ function About() {
               <a href="https://github.com/Myau5x/"> GitHub</a>
             </div>
             <div className="col-md">
-              <a href="./documents/Olga_Illari_FED_020121.pdf"> Resume</a>
+              <a href="https://myau5x.github.io/portfolio_resp/documents/Olga_Illari_FED_020121.pdf"> Resume</a>
             </div>
           </div>
           </div>
